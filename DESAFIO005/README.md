@@ -1,18 +1,24 @@
-## Getting Started
+## Desafio
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Uma busca sequencial se caracteriza por percorrermos todos os  elementos de uma estrutura em busca do elemento “X” desejado. Neste desafio, dada uma estrutura de vetor A [a1, a2...an], percorra todo o vetor fazendo as comparações de A[N] = X. Caso a condição seja verdadeira, “X” existe na estrutura e a busca será concluída com sucesso. 
 
-## Folder Structure
+Considere um array de 10 elementos do tipo inteiro: 
 
-The workspace contains two folders by default, where:
+Os elementos são {64, 137, -16, 43, 67, 81, -90, 212, 10, 75}. 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+● Carregue esses elementos em um array.  
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+● Implementação da busca sequencial: 
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+● Crie um método  que realiza uma busca sequencial.  
 
-## Dependency Management
+● Se o valor constar no array, retorne um texto contendo o valor e sua respectiva posição no array. Caso contrario retorne um texto dizendo que o número não foi encontrado, conforme exemplos abaixo.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+ 
+## Entrada
+
+A entrada consiste em um valor de busca e/ou array
+
+## Saída
+
+A saída será a a posição do elemento no array, caso o valor não se encontre na Array, retorne a frase " Numero __ nao encontrado!"
