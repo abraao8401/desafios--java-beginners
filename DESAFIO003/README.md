@@ -9,4 +9,4 @@ A Entrada será composta por um número inteiro, N.
 
 ## Saída
 
-Será  impresso o somatório de N até 0, como no exemplo a baixo:
+Será  impresso o somatório de N até 0;
